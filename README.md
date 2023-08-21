@@ -12,7 +12,6 @@ Simplify Redis deployment with Docker and Kubernetes.
 
 2. Build and push the Redis Docker image:
     ```bash
-    cd docker-project
     docker build -t redis-custom .
     docker push your-registry/redis-custom 
 
